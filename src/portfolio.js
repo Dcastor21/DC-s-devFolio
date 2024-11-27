@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1arxtncWbWRIFbigA4tSF4bBPtYtsJoSg2da0-eFxh4Y/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -57,6 +57,9 @@ const skillsSection = {
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    ),
+    emoji(
+      "⚡ Preprocessing Large datasets for LLMs such as LLama 3.1 "
     )
   ],
 
@@ -131,14 +134,14 @@ const educationInfo = {
   schools: [
 
     {
-      schoolName: "Stanford University",
+      schoolName: "Clayton State University",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      duration: "AUgust 2017 - December 2017",
+      desc: "Took COurses Reveltive to Software Engineering, Artificial Intelligence, Operating Systems, etc.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ]
     }
   ]
 };
@@ -170,14 +173,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Resident",
+      company: "Headstarter",
+      companylogo: require("./assets/images/headstarter.jpeg"),
+      date: "October 2024 – Present",
+      desc: "Building the #1 Community for emerging Software Engineers",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built 14+ machine learning, ai-engineering and full-stack projects in fast-paced software team environments",
+        "Developed 5+ neural networks in Python, 11 apps in Typescript on AWS/Vercel with dev and production environments",
+        "Implemented llm-chaning, hyperparameter tuning, fine tuning on 10+ LLM models controlling for latency & accuracy",
+        "Coached by Google Machine Learning, Google Kubernetes, Two Sigma, Tesla, Figma and Citadel Engineers",
+        "Created 321+ commits on github with 7-day deadlines getting a Career Capital increase of 40% from start date"
       ]
     },
     {
@@ -189,10 +195,16 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Outreach",
+      companylogo: require("./assets/images/OutreachLogo.jpeg"),
+      date: "Jun 2022 – Aug 2023",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Streamlined migration process using gRPC and GraphQL, reduced migration time by 40%",
+        "Implemented new features and optimized performance to legacy database, increased database query efficiency by 30%",
+        "Troubleshooted issues during the migration process with staff engineers, minimizing downtime by 75% ",
+        
+      ]
     }
   ]
 };
@@ -235,7 +247,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,15 +260,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "The Complete Python Bootcamp",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed Certification from Pierian Training for Complete Python from Zero to Hero.",
+      image: require("./assets/images/udemy.webp"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://ude.my/UC-bc62dacd-1038-43dd-83ae-52ff6edc092e"
         },
         {
           name: "Award Letter",
@@ -280,21 +292,21 @@ const achievementSection = {
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
     }
+
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -320,7 +332,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -368,8 +380,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-4047717591",
+  email_address: "darnelcastor2@gmail.com"
 };
 
 // Twitter Section
