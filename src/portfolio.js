@@ -135,7 +135,7 @@ const educationInfo = {
 
     {
       schoolName: "Clayton State University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/CSULogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "AUgust 2017 - December 2017",
       desc: "Took COurses Reveltive to Software Engineering, Artificial Intelligence, Operating Systems, etc.",
