@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1arxtncWbWRIFbigA4tSF4bBPtYtsJoSg2da0-eFxh4Y/edit?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ngx92_6Mb8YHJLHW-exZHIdGKRQgaNO9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -220,7 +220,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
