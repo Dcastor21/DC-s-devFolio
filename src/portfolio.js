@@ -23,7 +23,7 @@ const greeting = {
   username: "Darnel Castor",
   title: "Hi all, I'm Darnel",
   subTitle: emoji(
-    "A passionate driven Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ngx92_6Mb8YHJLHW-exZHIdGKRQgaNO9/view?usp=sharing", // Set to empty to hide the button
@@ -198,7 +198,7 @@ const workExperiences = {
       company: "Outreach",
       companylogo: require("./assets/images/OutreachLogo.jpeg"),
       date: "Jun 2022 – Aug 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Helping B2B sales and marketing teams automate their outreach process on cold emails, calls using our workflow-first Sales Execution Platform ",
       descBullets: [
         "Streamlined migration process using gRPC and GraphQL, reduced migration time by 40%",
         "Implemented new features and optimized performance to legacy database, increased database query efficiency by 30%",
