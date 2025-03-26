@@ -137,7 +137,7 @@ const educationInfo = {
       schoolName: "Clayton State University",
       logo: require("./assets/images/CSULogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2017 - December 2017",
+      duration: "",
       desc: "Took Courses Relevant to Software Engineering, Artificial Intelligence, Operating Systems, etc.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -173,7 +173,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Resident",
+      role: "Full-Stack Software Engineer",
       company: "Headstarter",
       companylogo: require("./assets/images/headstarter.jpeg"),
       date: "October 2024 – Present",
@@ -197,7 +197,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Outreach",
       companylogo: require("./assets/images/OutreachLogo.jpeg"),
-      date: "Jun 2022 – Aug 2023",
+      date: "Jun 2022 – Aug 2022",
       desc: "Helping B2B sales and marketing teams automate their outreach process on cold emails, calls using our workflow-first Sales Execution Platform ",
       descBullets: [
         "Streamlined migration process using gRPC and GraphQL, reduced migration time by 40%",
