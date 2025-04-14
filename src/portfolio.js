@@ -214,7 +214,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -225,12 +225,12 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "PrepWise-AI interview prep",
+      projectDesc: "Practice you interviewing skills",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://mock-interview-prep-three.vercel.app/sign-in"
         }
         //  you can add extra buttons here.
       ]
@@ -242,12 +242,12 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://mock-interview-prep-three.vercel.app/sign-in"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
